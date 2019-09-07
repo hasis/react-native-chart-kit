@@ -52,7 +52,7 @@ class PieChart extends AbstractChart {
           <Text
             fill={c.item.legendFontColor}
             fontSize={c.item.legendFontSize}
-            fontStyle={c.item.legendFontStyle}
+            fontFamily={c.item.legendFontFamily}
             x={this.props.width / 2.5}
             y={
               -(this.props.height / 2.5) +
